@@ -1,1 +1,1 @@
-# HTML-CSS-contest
+# HTML-CSS-contest-AlumConnect
