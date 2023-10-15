@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>AlumConnect</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#events">Events</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="book">
+        <h3>Book your spot</h3>
+        <input type="text" id="name" name="name" placeholder="Name" class="form-item" required >
+        <input type="email" id="email" name="email" placeholder="Email" class="form-item" required>
+        <select name="Event" id="event">
+            <option value="" checked>Choose Event</option>
+            <option value="Project Management">Project Management</option>
+            <option value="Technovation Hackathon">Technovation Hackathon</option>
+        </select>
+        <button onclick="alert('Yay! Spot Booked successfully')" type="submit">Submit</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 AlumConnect</p>
+    </footer>
+</body>
+</html>
