@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: black;
     padding: 10px 0;
 }
 
@@ -30,7 +30,8 @@ nav a {
 }
 
 .hero {
-    background-image: url('hero-image.jpg');
+    
+    background-color: #333;
     background-size: cover;
     text-align: center;
     color: #fff;
