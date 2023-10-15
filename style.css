@@ -8,6 +8,9 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Roboto', sans-serif;
 }
+*{
+    scroll-behavior: smooth;
+}
 
 header {
     background-color: #673ab7;
@@ -47,18 +50,51 @@ nav a {
     margin: 20px 0;
 }
 
+.about-section h2{
+ text-align: center;
+}
 .about-section {
     background-color: #f0f0f0;
     padding: 40px;
 }
 
+.about-section .members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
 .member {
     text-align: center;
     margin: 20px;
+ 
+}
+
+.member img{
+    height: 300px;
 }
 
 .contact-section {
     padding: 40px;
+    text-align: center;
+}
+
+.contact-section form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-section .form-item{
+    margin-block: .5rem;
+    padding: .5rem;
+}
+
+.contact-section button{
+
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
 }
 
 form {
